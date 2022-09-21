@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div{
+    /* text-align: center; */
+}
+form{
+    background-color: aliceblue;
+    box-shadow: 0 0 12px #000;
+    width: 30%;
+    padding: 15px;
+    left: calc(50% - 15%);
+    top: 15%;
+    position: absolute;
+}
+input{
+    padding: 5px;
+    margin: 7px 0;
+    width: 80%;
+}
+textarea{
+    width: 80%;
+    padding: 5px;
+    margin: 7px 0;
+    resize: none;
+}
+.unknown input{
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 0;
+    border: solid 2px beige;
+    padding: 4px;
+    width: 80px;
+    cursor: pointer;
+}
